@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+</head>
+<body>
+    <main>
+                <!--header and navigation bar-->
+                <header>
+                    <h1>N<span>Kaur</span></h1>
+                    <nav>
+                        <ul>
+                            <li><a class="active" href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                
+                <!--text on background image-->
+                <section class="background">
+                        <div class="container">
+                            <img src="./Assets/background4.jpg"/>
+                                <div class="content">
+                                    <h2>Hi!</h2>
+                                    <h1>I am <span>Navneet </span>Kaur</h1>
+                                    <p>A Full-Stack web developer</p>
+                                    <p>Living in Perth, WA.</p>
+                                </div>
+                        </div>
+                </section>
+                
+                <!--About me section-->
+                <section class="maincontent">
+                        <article id="about" class="aboutme">
+                        <img src="./Assets/avatar.jpg"  alt="person image" class="float-left" />
+                        <h2>Me talking about myself</h2>
+                        <p>I'm a web developer, with Computer Science background. I offer both design and development services of websites.
+                         I do really like doing coding, designing websites, solving complex problems.
+                        </p>
+                        </article>
+                </section>
+                
+                <!--Work Section-->
+                <section class="projects" id="work">
+                        <article class="workheading">
+                            <h1>My Work</h1>
+                        </article>
+                        <!--Work Images-->
+                        <section class="category">
+                            <div class="workimages">
+                                <a href=" https://navneet-birdi.github.io/Horiseon-services/"><img src="./Assets/screenshot2.jpg" alt="clients discussing their ideas" class="large"/></a>
+                            </div>
+                            <div class="workimages">
+                                <a href=""><img src="./Assets/assignment2.jpg" alt="java script logo" class="large" onclick="myFunction()" /></a>
+                            </div>
+                            <div class="workimages">
+                                <a href=""><img src="./Assets/assignment3.jpg" alt="seo logo" class="large" onclick="myFunction()"/></a>
+                            </div>
+                            <div class="workimages">
+                                <a href=""><img src="./Assets/assignment4.jpg" alt="php logo" class="large" onclick="myFunction()"/></a>
+                            </div>
+                        </section>
+                </section>
+      
+                <!--Contact Section-->
+      
+                <div class="form" id="contact">
+                    <div style="text-align:center">
+                        <h1> Say Hello<span>&#128075;</span></h1>
+                        <h2>Contact Me</h2>
+                    </div>
+               
+                    <form method="#" action="#" class="formcontent">
+                       <!--name-->
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                        <!--email-->
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+                        <!--subject-->
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <!--submit-->
+                        <input type="submit" name="submit" value="Submit">
+                        <a href="#"><i class='fa fa-facebook teal-color'></i></a>
+                        <a href="#"><i class='fa fa-linkedin white-color'></i></a>
+                        <a href="#"><i class='fa fa-github orange-color'></i></a>
+                    </form>
+                  </div>
+       
+                <!--JavaScript function for Images dialogue box-->
+                <script>
+                function myFunction() {
+                alert("Coming Soon!\n Thank You");
+                }
+                </script>
+
+    </main>  
+   <footer>
+       <p>&copy; Navneet Kaur</p>
+       <a href="mailto:nbirdi@yahoo.com">nbirdi@yahoo.com</a>
+   </footer>   
+</body>
+</html>

@@ -1,0 +1,239 @@
+body {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    }
+    
+    
+    /*header text*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: hsl(26, 68%, 90%);
+    color: rgb(7, 8, 77);
+    height:50px;
+    position:sticky;
+    top:0;
+     }
+    span{
+      color: rgb(224, 150, 100);
+    }
+
+
+    /*navigation*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    margin: 20px;
+    overflow: hidden;
+   }
+nav a {
+    color:  rgb(7, 8, 77);
+    font-weight: bold;
+    text-decoration: none;
+  }
+nav li{
+      list-style:none;
+      font-size: 18px;
+      display: flex;
+  }
+
+  
+    /*Change the color of links on hover*/
+  
+li:hover{
+      text-shadow: 0.7px 0.7px rgb(95, 90, 90);
+      font-size: large;
+      }
+
+    
+      /*background image*/
+.background img{
+    height:500px;
+    width:100%;
+    margin-top: 0px;
+}
+.container {
+    position: relative;
+    width:100%;
+     }
+.container .content {
+    position: absolute;
+    bottom: 4px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* about section */
+.maincontent {
+    width: 100%;
+    display: inline-block;
+    /*margin-left: 20px;*/
+    border: 5px;
+    margin-bottom: 2px;
+    margin-top: -4px;
+}
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+.aboutme {
+    margin-bottom: -5px;
+    padding-bottom: 2px;
+    padding: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(26, 68%, 90%);
+    color: hsl(0, 100%, 2%);
+    overflow: hidden;   /*automatically adjust content*/
+}
+.aboutme img {
+    max-height: 300px;
+    max-width: 400px;
+   }
+.aboutme h2{
+    text-align: center;
+    text-decoration:underline;
+}
+.aboutme p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+}
+ 
+
+  /*work section*/
+  .projects{
+    background-color: rgb(28, 15, 65);
+    overflow: hidden;
+    margin-top: 1px;
+
+}
+.category img{
+    height: 300px;
+    width: 300px;
+    border-radius: 70%;
+    margin-left: 10px;
+  }
+.category img:hover{
+      background-color: rgb(218, 213, 213);
+      transition: 0.5s;
+      box-shadow:0 4px 4px 0 rgb(231, 230, 230) ;
+      width: 350px;
+      height: 350px;
+     }
+.workheading h1{
+      text-align: center;
+      font-size:larger;
+      color: white;
+      padding-top: 20px;
+  }
+.category {
+    display: flex;
+    flex-wrap: wrap;
+}
+.category>* {
+    flex: 1 1 160px;
+}
+.workimages{
+    padding: 10px;
+    margin-left: 40px;
+    display:flex;
+}
+
+/* contact section */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    resize: vertical;
+    overflow: hidden;
+    border-radius: 15px;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the form/contact section */
+.form{
+    position: relative;
+    background-color: hsl(26, 68%, 90%);
+    overflow: hidden;
+}
+.formcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.form h1{
+    font: size 20px;
+    margin-top: 20px;
+}
+.teal-color {
+    color:teal;
+    float:right;
+ 
+}
+.white-color{
+    color:white;
+    float: right;
+   
+}
+.orange-color{
+    color:orange;
+    float: right;
+    
+}
+.fa{
+  padding: 20px;
+  font-size: 2%;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+footer{
+    text-align: center;
+    padding:3px;
+    background-color: hsl(357, 49%, 72%);
+    color:#f1f1f1;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 768px) {
+    main,
+    nav,
+    section,
+    div{
+      flex-direction: column;
+    }
+}
+
+
+
+
+
+
