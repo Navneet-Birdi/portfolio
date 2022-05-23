@@ -1,3 +1,4 @@
+
 # 02 Advanced CSS: Portfolio
 ## User Story
 
@@ -27,4 +28,8 @@ Included different images of projects which on hover shows some functionalty.
 There is a link to one of my deployed application.
 Rest of the images on click will display some message.
 A contact form and some social media icons.
+
+![portfolio1](https://user-images.githubusercontent.com/103732777/169782298-4ccdf453-2d7c-4817-b3b8-deec3a754d21.png)
+![portfolio2](https://user-images.githubusercontent.com/103732777/169782326-9645c990-2012-4867-a430-b07789d4d0ef.png)
+
 
