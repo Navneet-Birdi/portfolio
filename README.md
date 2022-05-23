@@ -1,3 +1,5 @@
+![portfolio2](https://user-images.githubusercontent.com/103732777/169753439-2e2da0c7-bdbe-4cc6-8adf-75fab4199d47.png)
+![portfolio1](https://user-images.githubusercontent.com/103732777/169753489-34702303-da62-4842-a2d8-671d8d866f2d.png)
 # 02 Advanced CSS: Portfolio
 ## User Story
 
