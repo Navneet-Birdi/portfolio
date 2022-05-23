@@ -14,7 +14,7 @@ Its about me
 Work i have done, my creativity.
 My contact info
 
-## Techonologies
+## Technologies
 Languages i have used:
 HTML
 CSS
