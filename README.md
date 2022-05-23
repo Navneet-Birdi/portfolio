@@ -8,7 +8,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ```
 ## General Information
 
-My Prsonal Portfolio
+My Personal Portfolio
 Its about me
 Work i have done, my creativity.
 My contact info
