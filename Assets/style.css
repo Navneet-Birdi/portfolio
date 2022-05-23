@@ -222,15 +222,6 @@ footer{
     color:#f1f1f1;
 }
 
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 768px) {
-    main,
-    nav,
-    section,
-    div{
-      flex-direction: column;
-    }
-}
 
 
 
