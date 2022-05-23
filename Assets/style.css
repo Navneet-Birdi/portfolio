@@ -195,8 +195,8 @@ input[type=submit] {
     float:right;
  
 }
-.white-color{
-    color:white;
+.black-color{
+    color:rgb(7, 7, 7);
     float: right;
    
 }
@@ -207,13 +207,26 @@ input[type=submit] {
 }
 .fa{
   padding: 20px;
-  font-size: 2%;
   width: 20px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin-top: 0px;
+  background-color: #f1d2d4;
 }
-
+.row{
+    display: flex;
+}
+.column1{
+    flex:60%;
+    background-color:  #f1d2d4;
+    text-align: right;
+}
+.column1 h2{
+    margin-right: 10px;
+}
+.column2{
+    flex:40%
+}
 
 footer{
     text-align: center;
