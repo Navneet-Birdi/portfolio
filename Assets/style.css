@@ -130,6 +130,7 @@ li:hover{
       width: 350px;
       height: 350px;
      }
+  
 .workheading h1{
       text-align: center;
       font-size:larger;
@@ -174,6 +175,7 @@ input[type=submit] {
   
   input[type=submit]:hover {
     background-color: #45a049;
+    border-radius: 50%;
   }
   
   /* Style the form/contact section */
